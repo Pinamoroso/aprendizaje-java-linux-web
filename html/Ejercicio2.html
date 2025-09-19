@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ruben Eliud Resendiz Vela">
+    <meta name="description" content="Primer ejercicio del curso de programación web">
+    <meta name="keywords" content="html, css, java">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Ejercicio 02</title>
+
+    <!-- Define el color y centra el texto -->
+    <style>
+        h1 {
+            color: rgb(15, 15, 15);
+            text-align: center;
+        }
+        /*se crea un flexbox, centra los elementos */
+        .caja {
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            margin-top: 20px;
+        }
+
+        .columna {
+            width: 20%;
+        }
+
+        .centro {
+            width: 30%;
+            text-align: left;
+        }
+/*Para respetar los espacios y saltos de linea */
+        pre {
+            white-space: pre-wrap;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Cotard</h1>
+
+    <div align="center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOdrjBUbu6QH3c41UDqdxbyaSBo4xNbaBKAg&s" width="300" alt="chayo"><br>
+        <a href="https://www.youtube.com/watch?v=Bp1Uv3v33NU">Escúchala aquí</a><br>
+        <a href="https://www.youtube.com/watch?v=bM--PJ0Xsao">Escucha Sushi</a><br>
+        <a href="https://www.instagram.com/pinamoroso/">Sígueme en IG</a><br>
+        <a href="#final">End</a>
+        <a id="inicio"></a>
+
+        <hr style="color:rgb(255, 0, 0);">
+        <hr style="color:#d6dc1a;">
+        <hr style="color:blue;">
+    </div>
+
+    <!-- Caja con la lista a la izquierda -->
+    <div class="caja">
+        <div class="columna">
+            <ul type="square">
+                <li>Intro</li>
+                <li>Estribillo</li>
+                <li>Verso</li>
+                <li>Interludio</li>
+            </ul>
+        </div>
+
+        <div class="centro">
+            <pre>
+Letra de "Cotard"
+
+Intro
+22
+
+Estribillo
+Aye, aye, no sé si yo morí o aún estoy aquí
+Allá estaba mejor, eh
+¿Dónde? ¿Dónde? ¿Dónde?
+
+Verso
+I dream about my pole
+I dream about my racks
+I dream about my own (My own, my own)
+Uh (My own), uh, uh (Yeah, yeah)
+Las pills (Pills), yeah, and racks
+Pills las odio, ah
+No puedo pararlo, no quiero repararlo
+Love me so fucked up, quisiera no pararlo
+
+Estribillo
+Aye, aye, no sé si yo morí o aún estoy aquí
+Allá estaba mejor, huh, huh
+No sé si yo morí, aún me salva tu amor
+No veo nada acá
+
+Interludio
+Uh, uh, uh
+Uh, uh
+
+Estribillo
+Aye , aye, no sé si yo morí o aún estoy aquí
+Allá estaba mejor, eh
+¿Dónde? ¿Dónde? ¿Dónde? Eh
+¿Dónde? ¿Dónde? ¿Dónde? (Prr)
+Joder, joder
+            </pre>
+        </div>
+
+        <div class="columna">
+            <ol type="A">
+                <li>777</li>
+                <li>666</li>
+                <li>555</li>
+                <li>333</li>
+            </ol>
+        </div>
+    </div>
+
+    <div align="center">
+        <a id="final"></a>
+        <a href="#inicio">Start</a>
+
+        <blockquote>
+            “777”
+        </blockquote>
+
+        <p style="color:rgb(85, 66, 168)">Nasti nasti</p>
+    </div>
+
+</body>
+</html>
